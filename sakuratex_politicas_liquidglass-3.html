@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Términos, Condiciones y Políticas de Venta — SakuraTex</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+    html { scroll-behavior: smooth; }
+    body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #f0eafc, #fdf6fc);
+        color: #333;
+        line-height: 1.7;
+    }
+
+    header {
+        text-align: center;
+        padding: 60px 20px 40px;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+        box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+    }
+    header h1 {
+        color: #5A2D82;
+        font-size: 2.2em;
+        margin-bottom: 10px;
+    }
+    header p {
+        color: #5A2D82;
+        font-weight: 500;
+    }
+
+    .menu-btn {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        background: rgba(255,255,255,0.25);
+        backdrop-filter: blur(15px);
+        border-radius: 50%;
+        padding: 15px;
+        cursor: pointer;
+        z-index: 1000;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .menu-btn span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background: #5A2D82;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        right: 20px;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(15px);
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        display: none;
+        flex-direction: column;
+        z-index: 999;
+    }
+    .nav-menu a {
+        display: block;
+        color: #5A2D82;
+        text-decoration: none;
+        margin: 8px 0;
+        transition: color 0.3s ease;
+    }
+    .nav-menu a:hover { color: #8e4ed5; }
+
+    main {
+        max-width: 900px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+
+    section {
+        background: rgba(255,255,255,0.25);
+        backdrop-filter: blur(20px);
+        border-radius: 25px;
+        padding: 40px 30px;
+        margin-bottom: 30px;
+        box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.6s ease-out;
+    }
+    section.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    h2 {
+        color: #5A2D82;
+        margin-bottom: 15px;
+    }
+
+    ol, ul { padding-left: 20px; }
+    li { margin-bottom: 12px; }
+    a { color: #5A2D82; text-decoration: none; }
+
+    footer {
+        text-align: center;
+        padding: 40px 20px;
+        color: #777;
+        font-size: 0.9em;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(15px);
+        border-top: 1px solid rgba(255,255,255,0.3);
+        margin-top: 60px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>🪡 Términos, Condiciones y Políticas de Venta — SakuraTex</h1>
+    <p>Última actualización: 14 de octubre de 2025</p>
+</header>
+
+<div class="menu-btn" onclick="toggleMenu()">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<div class="nav-menu" id="navMenu">
+    <a href="#condiciones">Condiciones Generales</a>
+    <a href="#envios">Política de Envíos</a>
+    <a href="#devoluciones">Devoluciones y Cambios</a>
+    <a href="#garantias">Garantías</a>
+    <a href="#pagos">Pagos</a>
+    <a href="#privacidad">Privacidad</a>
+    <a href="#responsabilidad">Responsabilidad</a>
+    <a href="#modificaciones">Modificaciones</a>
+    <a href="#contacto">Contacto</a>
+</div>
+
+<main>
+<section id="intro">
+    <p>En SakuraTex nos esforzamos por ofrecer materiales de la más alta calidad para la confección de vestidos y proyectos de diseño. Al realizar una compra con nosotros, el cliente acepta las siguientes políticas y condiciones de venta.</p>
+</section>
+
+<section id="condiciones">
+    <h2>1. Condiciones Generales</h2>
+    <ol>
+        <li>Todas las ventas realizadas por SakuraTex son finales, salvo en los casos expresamente indicados en la sección de devoluciones.</li>
+        <li>Los colores y texturas de las telas pueden variar ligeramente según la iluminación, pantalla o lote de producción. Estas variaciones no se consideran defecto.</li>
+        <li>Los precios pueden cambiar sin previo aviso.</li>
+        <li>La disponibilidad de productos puede variar; en caso de falta de stock, se ofrecerá una alternativa o reemplazo del monto correspondiente en mercancía.</li>
+    </ol>
+</section>
+
+<section id="envios">
+    <h2>2. Política de Envíos</h2>
+    <ol>
+        <li>Los envíos se realizan mediante paqueterías externas (por ejemplo: Estafeta, DHL, FedEx, RedPack o la disponible al momento).</li>
+        <li>El tiempo de envío de los paquetes es de 1 a 3 días hábiles posteriores a la confirmación del pago.</li>
+        <li>El tiempo de entrega dependerá del servicio de paquetería y la zona de destino.</li>
+        <li>Si la paquetería cobra un costo adicional por reexpedición, zona extendida o de difícil acceso, dicho monto deberá ser cubierto por el cliente antes del envío.</li>
+        <li>SakuraTex no se hace responsable por demoras, pérdidas o daños ocasionados durante el traslado.</li>
+        <li>Cada pedido cuenta con un número de guía para seguimiento, que se comparte automáticamente con el cliente.</li>
+        <li>Si la paquetería ofrece seguro, el cliente podrá solicitar activarlo antes del envío, cubriendo el costo adicional correspondiente.</li>
+        <li>En caso de extravío o daño por parte de la paquetería, el cliente deberá iniciar el reclamo directamente con la empresa de transporte. SakuraTex apoyará con la documentación necesaria.</li>
+    </ol>
+</section>
+
+<section id="devoluciones">
+    <h2>3. Devoluciones y Cambios</h2>
+    <ol>
+        <li>No se aceptan devoluciones en telas cortadas, bordados, encajes o productos vendidos por metro, ya que son personalizados según la medida solicitada.</li>
+        <li>En caso de error en el surtido (modelo o tono incorrecto), el cliente deberá notificarlo dentro de los 2 días naturales posteriores a la recepción.</li>
+        <li>El producto debe mantenerse en su estado original, sin cortes, costuras ni alteraciones.</li>
+        <li>No se aceptan devoluciones por diferencias mínimas de tono o textura.</li>
+        <li>Una vez aprobada la devolución, SakuraTex enviará la guía correspondiente o indicará el procedimiento de reenvío.</li>
+    </ol>
+</section>
+
+<section id="garantias">
+    <h2>4. Garantías</h2>
+    <ol>
+        <li>SakuraTex garantiza que todos sus productos son nuevos y han pasado por revisión antes del envío.</li>
+        <li>No se otorgan garantías por mal uso, almacenamiento inadecuado, exposición a humedad, luz solar directa o cualquier alteración posterior a la compra.</li>
+        <li>En caso de defecto de fábrica comprobable, se ofrecerá únicamente un reemplazo del producto, no un reembolso.</li>
+        <li>La solicitud de revisión por defecto deberá realizarse dentro de los 2 días naturales posteriores a la recepción del pedido, adjuntando evidencia fotográfica clara.</li>
+    </ol>
+</section>
+
+<section id="pagos">
+    <h2>5. Pagos</h2>
+    <ol>
+        <li>Se aceptan pagos mediante depósito, transferencia bancaria, terminal, Shopify, Mercado Pago o enlaces directos verificados.</li>
+        <li>Todos los pagos deben completarse antes del envío.</li>
+        <li>SakuraTex no solicita datos personales ni bancarios fuera de los canales oficiales de comunicación.</li>
+    </ol>
+</section>
+
+<section id="privacidad">
+    <h2>6. Privacidad y Protección de Datos</h2>
+    <ol>
+        <li>La información personal de los clientes se utiliza únicamente para procesar pedidos, envíos y seguimiento.</li>
+        <li>No se comparte información con terceros salvo las paqueterías encargadas del envío.</li>
+        <li>Al realizar una compra, el cliente acepta el uso de sus datos conforme a esta política.</li>
+    </ol>
+</section>
+
+<section id="responsabilidad">
+    <h2>7. Responsabilidad</h2>
+    <p>SakuraTex no se hace responsable por daños indirectos, pérdidas económicas o consecuencias derivadas de retrasos, errores de transporte o mal uso del producto. En todo momento, la responsabilidad máxima de SakuraTex se limitará al monto pagado por el pedido correspondiente.</p>
+</section>
+
+<section id="modificaciones">
+    <h2>8. Modificaciones a las Políticas</h2>
+    <p>SakuraTex se reserva el derecho de modificar estas políticas en cualquier momento sin previo aviso. Las actualizaciones estarán disponibles públicamente en nuestros canales oficiales.</p>
+</section>
+
+<section id="contacto">
+    <h2>9. Contacto</h2>
+    <ul>
+        <li>Correo: <a href="mailto:sakuraTexcontacto@gmail.com">sakuraTexcontacto@gmail.com</a></li>
+        <li>WhatsApp: 5576860167</li>
+        <li>Instagram / Facebook: @SakuraTex</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2025 SakuraTex. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+// Toggle menú flotante
+function toggleMenu() {
+    const menu = document.getElementById('navMenu');
+    menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
+}
+
+// Animación de fade-in al hacer scroll
+const sections = document.querySelectorAll('section');
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('visible');
+        }
+    });
+}, { threshold: 0.2 });
+sections.forEach(section => observer.observe(section));
+</script>
+
+</body>
+</html>
